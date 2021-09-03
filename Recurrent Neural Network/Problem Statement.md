@@ -6,7 +6,7 @@ can be trained to estimate the next value x(t + 1) at its output ^y(t).
 
 
 
-![image-20210903141143252](H:\My Drive\GitHub\MachineLearning\Recurrent Neural Network/RNN.png)
+![image-20210903141143252](https://github.com/TusharSamantaray/MachineLearning/blob/main/Recurrent%20Neural%20Network/RNN.PNG)
 
 
 
