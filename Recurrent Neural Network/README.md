@@ -1,4 +1,4 @@
-A recurrent neural network (RNN) in the figure below can be used for time-series prediction. For instance, if an input signalx(t) is a noisy sine wave, the network can be trained to estimate the next valuex(t+ 1) at its outputˆy(t).
+A recurrent neural network (RNN) in the figure below can be used for time-series prediction. For instance, if an input signal x(t) is a noisy sine wave, the network can be trained to estimate the next value x(t+ 1) at its outputˆy(t).
 
 ![image-20220109183111196](https://github.com/TusharSamantaray/MachineLearning/blob/main/Recurrent%20Neural%20Network/RNN.PNG)
 
