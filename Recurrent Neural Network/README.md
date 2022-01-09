@@ -1,6 +1,6 @@
 A recurrent neural network (RNN) in the figure below can be used for time-series prediction. For instance, if an input signalx(t) is a noisy sine wave, the network can be trained to estimate the next valuex(t+ 1) at its outputˆy(t).
 
-![image-20220109183111196](C:\Users\tusha\AppData\Roaming\Typora\typora-user-images\image-20220109183111196.png)
+![image-20220109183111196](https://github.com/TusharSamantaray/MachineLearning/blob/main/Recurrent%20Neural%20Network/RNN.PNG)
 
 Implements the above network from scratch (i.e. without using libraries such as TensorFlow or PyTorch) including the training using gradient descent with backpropagation. Generate a mix of sine waves (e.g., 2Hz + 3Hz) that is 100 samples long and use it as the training signal. Feed the training signal into the network (either sample by sample or in minibatches of the desired size). The network should be trained to predict the next value of the signal. Use the following constraints: assume that weights U and W are fixed (V is the only trainable matrix of weights) such that all values of U are equal to 1 and values of W are chosen randomly (from distribution of your choice) to be between 0 and 1. Use an arbitrary number of neurons in the hidden layer. Assume x and y are one-dimensional. Use mean squared error as the loss function. Use a nonlinear activation function of your choice. Adjust the learning rate as you see fit.
 
